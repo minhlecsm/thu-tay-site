@@ -1,0 +1,11 @@
+:root { --bg: #f6f1e7; --ink: #2b2620; --muted: #6d6358; --rule: #d9cfbf; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0e1026; --ink: #ece4d4; --muted: #a79f93; --rule: #2c2f4a; } }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.65 Georgia, "Times New Roman", serif; }
+main { max-width: 640px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { font-size: 1.8em; margin: 0 0 4px; font-weight: normal; }
+h2 { font-size: 1.15em; margin: 2em 0 .4em; }
+p, li { margin: .5em 0; }
+.muted { color: var(--muted); font-size: .9em; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 48px 0; }
+a { color: inherit; }
+nav { margin-bottom: 32px; font-size: .9em; }
